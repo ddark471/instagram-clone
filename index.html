@@ -10,7 +10,7 @@
     <div class="login-container">
         <div class="login-box">
             <h1>Instagram</h1>
-            <form action="#" method="post">
+            <form method="post">
                 <input type="text" placeholder="Username" required id="username">
                 <input type="password" placeholder="Password" required id="password">
                 <button type="submit">Log In</button>
@@ -28,6 +28,6 @@
     const username = document.getElementById("username")
     const password = document.getElementById("password")
 
-    console.log(username, password)
+    console.log(username.textContent, password.textContent)
 </script>
 </html>
